@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="calendar-container animate__animated animate__heartBeat">
+        <div class="calendar-header">
+            <button id="prev" class="nav-button">Prev</button>
+            <h2 id="month-year"></h2>
+            <button id="next" class="nav-button">Next</button>
+        </div>
+        <div class="calendar-body">
+            <div class="day-names">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tue</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+            </div>
+            <div id="days" class="days"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
